@@ -1,10 +1,9 @@
-// Select color input
-// Select size input
+function setPixelColour(pixel) {
+  pixel.style.backgroundColor = penColour;
+}
 
-// When size is submitted by the user, call makeGrid()
+var penColour = 'black';
 
-function makeGrid() {
-
-// Your code goes here!
-
+function setPenColour(pen) {
+  penColour = pen;
 }
